@@ -26,6 +26,7 @@ function setup() {
 	toggleButton.mousePressed(toggleDarkMode);
 	toggleButton.style('background-color', darkMode ? '#003366' : '#ffffff');
 	toggleButton.style('color', darkMode ? '#ffffff' : '#000000');
+	console.log("Done");
 }
 
 function draw() {
