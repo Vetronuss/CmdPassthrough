@@ -5,10 +5,12 @@ function setup()
 {
   createCanvas(windowWidth,windowHeight);
   entry = createInput();
-  entry.position(0,0);
-  entry.size(100,100);
+  entry.position(width/2-100,height/2-100);
+  
+  entry.size(200,100);
   textAlign(CENTER,CENTER);
   button = createButton('Send');
+  button.position(width/2,height/2)
 }
 
 function draw()
